@@ -1,0 +1,16 @@
+{
+  "name": "dsh-profile-cora",
+  "private": true,
+  "dependencies": {
+    "@cora/cora-base": "file:.."
+  },
+  "dsh": {
+    "profile": {
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-headless",
+        "@cora/cora-base"
+      ]
+    }
+  }
+}

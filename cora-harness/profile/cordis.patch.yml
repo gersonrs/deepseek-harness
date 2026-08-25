@@ -1,0 +1,8 @@
+# Your patch layer for the cora profile, applied after every bundle layer.
+# Override the roster or the convergence policy here without touching the bundle:
+#
+# - id: cora-debate
+#   config:
+#     convergence:
+#       maxRounds: 5
+[]

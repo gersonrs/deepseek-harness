@@ -1,0 +1,16 @@
+{
+  // Out-of-tree bundle: this project is NOT a workspace member, so it borrows
+  // the harness source path facade instead of project references.
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": false,
+    "incremental": false,
+    "declaration": false,
+    "declarationMap": false,
+    "noEmit": true
+  },
+  "include": [
+    "src",
+    "tests"
+  ]
+}
